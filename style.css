@@ -1,0 +1,109 @@
+
+body{
+    background-color: aliceblue;
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 0px;
+    font-size: 1.25vw;
+}
+
+#logo{
+    margin: 0px;
+    padding: 8px;
+    font-family: "Nerko One", sans-serif;
+    box-shadow: 20px 20px 25px 10px orangered;
+    width: 17%;
+    border-radius: 20%;
+    border-top-right-radius: 30%;
+    border-bottom-right-radius: 30%;
+    border-bottom-left-radius: 30%;
+    border-top-left-radius: 30%;
+}
+
+cite>a{
+    display: inline-block;
+    width: 200px;
+    height: 150px;
+}
+
+ul{
+    margin: 0px;
+}
+
+#main-header{
+    background-color: orange;
+    color: white;
+    display: flex;
+    height: 20vh;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+#nav-ul{
+    display: flex;
+    
+}
+
+#nav-ul >li{
+    padding: 8px;
+    margin: 16px;
+}
+
+body>header>nav>ul{
+    list-style: none; 
+    text-decoration: none;
+} 
+
+.navbutton{
+    text-decoration: none;
+    color: white;
+    padding: 12px;
+    border: 1px solid white;
+    border-radius: 10%;
+}
+
+body>main article{
+    width: 70%;
+    margin: auto;
+}
+
+#main-content{
+    display: flex;
+    justify-content: space-around;
+}
+
+#main-content>div{
+    width: 70%;
+}
+
+form{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+body>footer{
+    background-color: orange;
+    display: flex;
+}
+
+
+img{
+    border-radius: 100%;
+}
+
+#footer-ul{
+    display: flex;
+    list-style: none;
+}
+
+#footer-ul>div>li{
+    margin-left: 12px;
+}
+
+#footer-ul>div>li>a{
+    color: white;
+    text-decoration: none;
+}
